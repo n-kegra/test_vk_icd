@@ -1,0 +1,3 @@
+EXPORTS
+    vk_icdNegotiateLoaderICDInterfaceVersion
+    vk_icdGetInstanceProcAddr

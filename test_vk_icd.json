@@ -1,0 +1,9 @@
+{
+    "file_format_version" : "1.0.1",
+    "ICD": {
+        "library_path": ".\\test_vk_icd.dll",
+        "api_version": "1.2.205",
+        "library_arch": "64",
+        "is_portability_driver": false
+    }
+}
