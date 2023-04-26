@@ -28,7 +28,7 @@ int main() {
     for (const auto &physicalDevice : physicalDevices) {
         VkPhysicalDeviceProperties prop;
         vkGetPhysicalDeviceProperties(physicalDevice, &prop);
-        std::cout << prop.deviceName << std::endl;
+        std::cout << "  " << prop.deviceName << std::endl;
     }
 
     vkDestroyInstance(instance, nullptr);
